@@ -1,0 +1,293 @@
+#main {
+  width: 100%;
+}
+
+ body {
+  width: 210mm
+  height: 297mm;
+  font-family: 'Archivo',sans-serif;
+        }
+
+.item {
+	page-break-before: always;
+	min-width: 200mm;
+	height:950px;
+	font-family: 'Archivo',sans-serif;
+	font-weight: bold;
+	width: 100%;
+	padding: 4px 30px;
+}
+
+.Left_div{
+  width: 19%;
+  height: 100%;float:left;
+}
+
+.Right_div{
+  width: 80%;
+  height: 100%;float:left;
+}
+
+.item .date {
+	margin-left: -45px;
+  width: 138%;
+  float: left;
+  color: #221E1F;
+  font-weight: bolder;
+  text-align: left;
+  font-size: 20px;
+  transform: rotate(-90deg);
+  margin-top: 117px;
+}
+
+.item .address {
+  color: #221E1F;
+  font-size: 17px;
+  width: 397px;
+  margin-left: -148px;
+  font-weight: 100;
+  text-align: left;
+  transform: rotate(-90deg);
+  float: left;
+	margin-top: 360px;
+}
+
+.item .injured {
+  height: 15px;
+  width: 15px;
+  margin-top: 10px;
+  margin-left: 14px;
+  background-image:url(dot-injured.png);
+  background-size: 15px;
+  display: inline-block;
+  float: left;
+}
+
+.item .state {
+  color: #221E1F;
+  font-size: 17px;
+  font-weight: 100;
+  float:right;
+  transform: rotate(-90deg);
+  float: left;
+	margin-top: 197px;
+  width: 215px;
+  margin-left: -56px;
+}
+
+#injured {
+  width: 100%;
+  text-align: center;
+  height: 42%;
+  margin-top: 10px;
+}
+
+#killed {
+	height: 35%;
+  width: 100%;
+  text-align: center;
+  margin-top: 92px;
+}
+
+.item .killed {
+  height: 15px;
+  width: 15px;
+  margin-left: 14px;
+  float: left;
+  margin-top: 10px;
+  background-image:url(dot-killed.png);
+  background-size: 15px;
+  display: inline-block;
+}
+
+.print {
+  page-break-after: always;
+}
+
+/* DON'T DELETE THIS */
+
+html {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+*,*:before,*:after {
+  box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: 'Archivo';
+}
+
+/* Clear Float */
+
+.cf:before,.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+
+@media print {
+  html, body {
+            width: 210mm;
+            height: 297mm;
+        }
+
+#main {
+  width: 100%;
+}
+
+body {
+  width: 210mm
+  height: 297mm;
+  font-family: 'Archivo',sans-serif;
+  text-transform:uppercase;
+}
+
+.item {
+  page-break-before: always;
+  min-width: 200mm;
+  height:950px;
+  font-family: 'Archivo',sans-serif;
+  font-weight: bold;
+  width: 100%;
+  padding: 4px 30px;
+}
+
+.Left_div{
+  width: 19%;
+  height: 100%;float:left;
+}
+
+.Right_div{
+  width: 80%;
+  height: 100%;float:left;
+}
+
+.date {
+  margin-left: -45px;
+  width: 138%;
+  float: left;
+  color: #221E1F;
+  font-weight: bolder;
+  text-align: left;
+  font-size: 20px;
+  transform: rotate(-90deg);
+  margin-top: 117px;
+}
+
+.address {
+  color: #221E1F;
+  font-size: 17px;
+  width: 397px;
+  margin-left: -148px;
+  font-weight: 100;
+  text-align: left;
+  transform: rotate(-90deg);
+  float: left;
+  margin-top: 360px;
+  font-family: 'Archivo',sans-serif;
+}
+
+.injured {
+  height: 15px;
+  width: 15px;
+  margin-top: 10px;
+  margin-left: 14px;
+  background-image:url(dot-injured.png);
+  background-size: 15px;
+  display: inline-block;
+  float: left;
+}
+
+.state {
+  color: #221E1F;
+  font-size: 17px;
+  font-weight: 100;
+  float:right;
+  transform: rotate(-90deg);
+  float: left;
+  margin-top: 197px;
+  width: 215px;
+  margin-left: -56px;
+  text-transform: uppercase;
+  font-family: 'Archivo',sans-serif;
+}
+
+#injured {
+  width: 100%;
+  text-align: center;
+  height: 42%;
+  margin-top: 20px;
+}
+
+#killed {
+  height: 35%;
+  width: 100%;
+  text-align: center;
+  margin-top: 92px;
+}
+
+.killed {
+  height: 15px;
+  width: 15px;
+  margin-left: 14px;
+  float: left;
+  margin-top: 10px;
+  background-image:url(dot-killed.png);
+  background-size: 15px;
+  display: inline-block;
+}
+
+.print {
+  page-break-after: always;
+}
+
+        /* DON'T DELETE THIS */
+
+html {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+*,*:before,*:after {
+  box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: 'Archivo';
+}
+
+        /* Clear Float */
+
+.cf:before,.cf:after {
+  content: " ";
+          /* 1 */
+  display: table;
+          /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
